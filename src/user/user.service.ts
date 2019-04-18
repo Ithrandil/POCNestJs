@@ -1,11 +1,18 @@
-import { Injectable, HttpException, HttpStatus, Logger  } from '@nestjs/common';
+import { Injectable, HttpException, HttpStatus, Logger, Inject  } from '@nestjs/common';
 import { User } from './model/user.model';
 import { of, Observable } from 'rxjs';
 import { UserDto } from './dto/user.dto';
+import { Logger as LoggerWinston } from 'winston';
+import { MyLogger } from '../logger/mylogger';
 
 @Injectable()
 export class UserService {
-    private readonly logger = new Logger(UserService.name);
+
+    constructor(@Inject('winston') private readonly loggerWinston: LoggerWinston,
+                ) {}
+
+    private readonly loggerNest = new Logger(UserService.name);
+    private readonly mylogger = new MyLogger(UserService.name);
 
     mockedUserDB: User[] = [
         {
@@ -100,10 +107,21 @@ export class UserService {
     }
 
     getMyLogger() {
-        this.logger.log('Ceci n\'est pas un console.log');
-        this.logger.error('Ceci n\'est pas un console.err');
-        this.logger.warn('Ceci n\'est pas un console.warn');
-        this.logger.verbose('Ceci n\'est pas un console.log verbose');
+        this.loggerNest.log('Ceci n\'est pas un console.log');
+        this.loggerNest.error('Ceci n\'est pas un console.err');
+        this.loggerNest.warn('Ceci n\'est pas un console.warn');
+        this.loggerNest.verbose('Ceci n\'est pas un console.log verbose');
+
+        this.loggerWinston.info('This is a winston info log ' + UserService.name);
+        this.loggerWinston.error('This is a winston error log');
+        this.loggerWinston.warn('This is a winston warning log');
+
+        this.mylogger.log('Test LOG');
+        this.mylogger.error('Test ERROR');
+    }
+
+    test(): string {
+        return 'Test';
     }
 
 }

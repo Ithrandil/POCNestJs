@@ -1,7 +1,7 @@
 import { IsString, IsInt, IsBoolean, IsEmail} from 'class-validator';
 
 export class User {
-    @IsString()
+    @IsString({message: 'Your first name must be a string!'})
     readonly firstName: string;
 
     @IsString()

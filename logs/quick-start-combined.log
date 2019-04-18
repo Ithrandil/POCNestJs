@@ -1,0 +1,120 @@
+info: HelloUserController {"timestamp":"2019-04-18 09:49:19"}
+error: oups an error {"timestamp":"2019-04-18 09:49:19"}
+warn: this is a warn {"timestamp":"2019-04-18 09:49:19"}
+info: Hello UserController {"timestamp":"2019-04-18 09:50:11"}
+error: oups an error {"timestamp":"2019-04-18 09:50:11"}
+warn: this is a warn {"timestamp":"2019-04-18 09:50:11"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:12:58"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:12:58"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:12:58"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:34:49"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:34:49"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:34:49"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:35:30"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:35:30"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:35:30"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:39:37"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:39:37"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:39:37"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:40:36"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:40:36"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:40:36"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:41:52"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:41:52"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:41:52"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:42:54"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:42:54"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:42:54"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:46:41"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:46:41"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:46:41"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:47:02"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:47:02"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:47:02"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:47:32"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:47:32"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:47:32"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:48:39"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:48:39"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:48:39"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:50:27"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:50:27"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:50:27"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:50:37"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:50:37"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:50:37"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:53:51"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:53:51"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:53:51"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:54:03"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:54:03"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:54:03"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 10:54:04"}
+error: This is a winston error log {"timestamp":"2019-04-18 10:54:04"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 10:54:04"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:07:49"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:07:49"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:07:49"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:10:37"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:10:37"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:10:37"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:12:42"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:12:42"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:12:42"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:17:10"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:17:10"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:17:10"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:17:33"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:17:33"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:17:33"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:18:10"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:18:11"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:18:11"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:19:01"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:19:01"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:19:01"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:24:31"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:24:31"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:24:31"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:30:59"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:30:59"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:30:59"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:33:06"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:33:06"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:33:06"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:36:31"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:36:31"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:36:31"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:37:11"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:37:11"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:37:11"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:40:44"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:40:44"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:40:44"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:43:46"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:43:46"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:43:46"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:44:08"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:44:08"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:44:08"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:44:39"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:44:39"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:44:39"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:48:33"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:48:33"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:48:33"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:49:21"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:49:21"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:49:21"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:53:47"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:53:47"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:53:47"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 11:54:45"}
+error: This is a winston error log {"timestamp":"2019-04-18 11:54:45"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 11:54:45"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 12:40:53"}
+error: This is a winston error log {"timestamp":"2019-04-18 12:40:53"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 12:40:53"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 12:49:37"}
+error: This is a winston error log {"timestamp":"2019-04-18 12:49:37"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 12:49:37"}

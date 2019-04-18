@@ -1,0 +1,16 @@
+Test LOG undefined 
+Test LOG undefined 
+Test LOG  
+Test LOG UserService 
+[UserService]: Test LOG 
+[UserService]: Thu Apr 18 2019 11:36:31 GMT+0100 (Paris, Madrid) : Test LOG 
+[UserService]: Invalid Date : Test LOG 
+[UserService]: Thu Apr 18 2019 11:40:44 GMT+0100 (Paris, Madrid) : Test LOG 
+[UserService]: Invalid Date : Test LOG 
+[UserService]: Invalid Date : Test LOG 
+[UserService]: Invalid Date : Test LOG 
+[UserService]: Invalid Date : Test LOG 
+[UserService]: 2019-4-18 : Test LOG 
+[UserService]: 2019-4-18 12:54:45 : Test LOG 
+[UserService]: 2019-4-18 13:40:53 : Test LOG 
+[UserService]: 2019-4-18 13:49:37 : Test LOG 
