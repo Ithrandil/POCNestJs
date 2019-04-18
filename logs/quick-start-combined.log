@@ -118,3 +118,6 @@ warn: This is a winston warning log {"timestamp":"2019-04-18 12:40:53"}
 info: This is a winston info log UserService {"timestamp":"2019-04-18 12:49:37"}
 error: This is a winston error log {"timestamp":"2019-04-18 12:49:37"}
 warn: This is a winston warning log {"timestamp":"2019-04-18 12:49:37"}
+info: This is a winston info log UserService {"timestamp":"2019-04-18 14:40:11"}
+error: This is a winston error log {"timestamp":"2019-04-18 14:40:11"}
+warn: This is a winston warning log {"timestamp":"2019-04-18 14:40:11"}

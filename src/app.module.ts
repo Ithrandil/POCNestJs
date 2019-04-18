@@ -1,11 +1,12 @@
 import { Module, ValidationPipe } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { APP_PIPE } from '@nestjs/core';
+import { APP_PIPE, APP_GUARD } from '@nestjs/core';
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
 import { WinstonModule } from 'nest-winston';
 import * as winston from 'winston';
+import { RolesGuard } from './roles/roles.guard';
 
 @Module({
   imports: [AuthModule,
@@ -35,6 +36,10 @@ import * as winston from 'winston';
                 provide: APP_PIPE,
                 useClass: ValidationPipe,
               },
+              {
+                provide: APP_GUARD,
+                useClass: RolesGuard,
+              }
               ],
 })
 export class AppModule {}
