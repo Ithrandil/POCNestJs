@@ -1,12 +1,14 @@
 import { Module, ValidationPipe } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { APP_PIPE, APP_GUARD } from '@nestjs/core';
+import { APP_PIPE, APP_GUARD, APP_FILTER } from '@nestjs/core';
 import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
 import { WinstonModule } from 'nest-winston';
-import * as winston from 'winston';
 import { RolesGuard } from './roles/roles.guard';
+import { HttpExceptionFilter } from './filters/http-exception.filter';
+import { ConfigModule } from './config/config.module';
+import * as winston from 'winston';
 
 @Module({
   imports: [AuthModule,
@@ -25,10 +27,11 @@ import { RolesGuard } from './roles/roles.guard';
               // defaultMeta: { service: __filename },
               transports: [
                 new winston.transports.Console(),
-                new winston.transports.File({ filename: 'quick-start-error.log', level: 'error' }),
+                new winston.transports.File({ dirname: 'logs', filename: 'quick-start-error.log', level: 'error' }),
                 new winston.transports.File({ dirname: 'logs', filename: 'quick-start-combined.log', format: winston.format.uncolorize() }),
             ],
             }),
+            ConfigModule,
           ],
   controllers: [AppController],
   providers: [AppService,
@@ -39,7 +42,11 @@ import { RolesGuard } from './roles/roles.guard';
               {
                 provide: APP_GUARD,
                 useClass: RolesGuard,
-              }
-              ],
+              },
+              {
+                provide: APP_FILTER,
+                useClass: HttpExceptionFilter,
+              },
+            ],
 })
 export class AppModule {}

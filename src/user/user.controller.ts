@@ -4,8 +4,6 @@ import { User } from './model/user.model';
 import { Observable } from 'rxjs';
 import { UserDto } from './dto/user.dto';
 import { AuthGuard } from '@nestjs/passport';
-import { MyLogger } from 'src/logger/mylogger';
-import { RolesGuard } from 'src/roles/roles.guard';
 import { Roles } from 'src/roles/roles.decorator';
 
 @Controller('user')
@@ -13,9 +11,6 @@ export class UserController {
 
     constructor(private readonly userService: UserService) {}
 
-    private readonly mylogger = new MyLogger(UserController.name);
-
-    // @UseGuards(RolesGuard)
     @Roles('admin')
     @Get('test')
     test() {
@@ -36,23 +31,13 @@ export class UserController {
     @UseGuards(AuthGuard())
     @Get(':id')
     getById(@Param() params): Observable<UserDto> {
-        try {
-            return this.userService.getUserById(params.id);
-        } catch (error) {
-            this.mylogger.error(error);
-            return error.message;
-        }
+        return this.userService.getUserById(params.id);
     }
 
     @UseGuards(AuthGuard())
     @Put('update/:id')
     updateUser(@Body() updatedUser: User, @Param() params): string {
-        try {
-            return this.userService.updateUser(updatedUser, params.id);
-        } catch (error) {
-            this.mylogger.error(error);
-            return error.message;
-        }
+        return this.userService.updateUser(updatedUser, params.id);
     }
 
     @Post('create')
@@ -63,18 +48,7 @@ export class UserController {
     @UseGuards(AuthGuard())
     @Delete(':id')
     deleteUser(@Param() params): string {
-        try {
             return this.userService.deleteUser(params.id);
-        } catch (error) {
-            this.mylogger.error(error);
-            return error.message;
-        }
-    }
-
-    @UseGuards(AuthGuard())
-    @Get('mail/:email')
-    findOneByEmail(@Param() params): User {
-        return this.userService.findOneByEmail(params.email);
     }
 
 }
